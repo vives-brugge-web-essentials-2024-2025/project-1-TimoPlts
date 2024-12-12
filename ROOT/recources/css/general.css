@@ -5,6 +5,10 @@ html {
     margin-top: 10px; /* Ruimte boven body */
 }
 
+body {
+    margin: 0 5%;
+}
+
 .top-button-grey {
     text-decoration: none; /* Doet onderlijning weg */
     background-color: #333;
@@ -108,7 +112,7 @@ nav ul li button:hover {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
-    color:#1f1f1f;
+    color:#029400;
     margin-bottom: 20px;
 }
 
@@ -159,7 +163,7 @@ nav ul li button:hover {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
-    color: #eeeeee;
+    color:#029400;
     margin-bottom: 20px;
 }
 
@@ -213,7 +217,7 @@ nav ul li button:hover {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
-    color: #1f1f1f;
+    color:#029400;
     margin-bottom: 20px;
 }
 
@@ -301,6 +305,14 @@ form {
     align-items: flex-start; /* Zorgt ervoor dat alles netjes uitgelijnd is */
     width: 100%;
 
+}
+
+.contact-header header{
+    color:#029400;
+}
+
+.contact-header p{
+    color: #333;
 }
 
 .contact-info {
