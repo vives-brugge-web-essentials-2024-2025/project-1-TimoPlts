@@ -1,0 +1,429 @@
+/* ALGEMENE CSS COOR HELE PAGINA */
+html {
+    background-color: #9fcdff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px; /* Ruimte boven body */
+}
+
+body {
+    margin: 0 5%;
+}
+
+.top-button-grey {
+    text-decoration: none; /* Doet onderlijning weg */
+    background-color: #333;
+    color: #eeeeee;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);   
+}
+
+.top-button-grey:hover {
+    background-color: #747474; /* Oranje bij hover */
+    color: #eeeeee;
+}
+
+
+.top-button-white {
+    text-decoration: none; /* Doet onderlijning weg */
+    background-color: #eeeeee;
+    color:  #333;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);   
+}
+
+.top-button-white:hover {
+    background-color: #747474; /* Oranje bij hover */
+    color: #eeeeee;
+}
+
+img {
+    border: 3px solid #1f1f1f; /* Een lichte grijze rand van 5px */
+    border-radius: 8px; /* Maak de hoeken van de rand afgerond */
+}
+
+
+/* HEAD BANNER*/
+.container-head-banner {
+    background-image: url("../images/Azoren---Sao-Miguel---Sete-Citades---Miradouro-da-Boca-do-Inferno---uitzichtpunt---pad---wandelen---meer---groen.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* NAVIGATIE CONTAINER*/
+
+.container-navigation {
+    background-color: #333;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    gap: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+    margin: 10;
+}
+
+nav ul li button {
+    background-color: #eeeeee;
+    color: #333;
+    border: none;
+    font-size: 16px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer; /* Cursor verandert naar pointer */
+}
+
+nav ul li button:hover {
+    background-color: #747474;
+    color: #eeeeee;
+
+}
+
+.logo {
+    width: 50px; /* Geselecteerde grootte van het logo */
+    height: auto; /* Zorgt voor correcte verhoudingen */
+}
+
+.logo-container img{
+    border:none;
+}
+
+
+/*OVER ONS BLOK*/
+#over-ons {
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+.over-ons-header {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color:#029400;
+    margin-bottom: 20px;
+}
+
+.over-ons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; /* Zorg ervoor dat de tekst aan de linkerzijde blijft */
+    align-items: center; /* Zorg ervoor dat de tekst en afbeelding verticaal in het midden staan */
+    flex-wrap: nowrap; /* Zorg ervoor dat alles in één rij blijft */
+}
+
+.over-ons-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #1f1f1f;
+    text-align: justify;
+}
+
+.over-ons-image {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.over-ons-image img {
+    width: 100%; /* De afbeelding vult de container */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.top-button-over-ons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* KLIMAATVERANDERING CONTAINER */
+#klimaat-verandering {
+    padding: 20px;
+    background-color:  #333;
+    color:#eeeeee;
+}
+
+.klimaat-verandering-header {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color:#029400;
+    margin-bottom: 20px;
+}
+
+.klimaat-verandering-blok2 {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; /* Zorg ervoor dat de tekst aan de linkerzijde blijft */
+    align-items: center; /* Zorg ervoor dat de tekst en afbeelding bovenaan beginnen */
+    flex-wrap: nowrap; /* Zorgt dat beide bovenaan beginnen */
+}
+
+/* Afbeelding-sectie */
+.klimaat-verandering-image2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.klimaat-verandering-image2 img {
+    width: 100%; /* De afbeelding vult de container */
+    height: auto;
+    border: 3px solid  #eeeeee;
+    border-radius: 8px;
+    object-fit: cover; /* Zorgt dat de afbeelding netjes wordt bijgesneden als nodig */
+}
+
+/* Tekst-sectie */
+.klimaat-verandering-text2 {
+    font-size: 1em;
+    line-height: 1.5;
+    color:  #eeeeee;
+    text-align: justify; /* Optioneel: maakt de tekst uitgelijnd voor een nettere presentatie */
+   
+}
+
+.top-button-klimaatverandering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* OPLOSSING CONTAINER*/
+#oplossingen{
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+.oplossing-container header {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color:#029400;
+    margin-bottom: 20px;
+}
+
+.oplossing-verdeling {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap; /* Zorgt ervoor dat items op de volgende rij springen als er geen ruimte is */
+}
+
+.oplossing-verdeling div {
+    flex: 1; /* Zorgt ervoor dat alle kolommen dezelfde breedte krijgen */
+    display: flex;
+    flex-direction: column; /* Zorgt dat de inhoud van de kolommen gestapeld wordt */
+    align-items: center; /* Centreert de inhoud horizontaal */
+    justify-content: space-between; /* Verdeel de inhoud gelijkmatig */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optioneel: voegt een rand toe rond elke kolom */
+    border-radius: 8px; /* Rond de hoeken van de kolommen af */
+    background-color: #ffffff;
+}
+
+.oplossing-verdeling img {
+    max-width: 100%; /* Zorgt dat de afbeelding niet buiten de container gaat */
+    height: auto; /* Houdt de oorspronkelijke verhoudingen van de afbeelding */
+    margin-bottom: 15px; /* Ruimte onder de afbeelding */
+    border-radius: 8px;
+}
+
+.oplossing-verdeling h3 {
+    min-height: 2.5em; /* Zorgt ervoor dat alle titels evenveel ruimte innemen */
+    height: 3em; /* Zorgt dat de header altijd dezelfde hoogte inneemt */
+    margin-bottom: 10px; /* Ruimte tussen de titel en afbeelding */
+    
+}
+
+.top-button-oplossing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* CONTACT BLOK*/
+form {
+    display: flex;
+    /* Deze zorgen ervoor dat de labels*/
+    flex-direction: column;
+    /* en inputs onder elkaar staan.   */
+}
+
+
+#contact {
+    background-image: url('../images/pexels-bri-schneiter-28802-346529 (1).jpg');
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    color: #333;
+    padding: 20px;
+    
+}
+
+.contact-container {
+    
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.85); /* werken met RGBA om seethrough te maken. */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    display: flex;
+    gap: 30px; /* Meer ruimte tussen de twee secties */
+    justify-content: flex-end;
+    align-items: flex-start; /* Zorgt ervoor dat alles netjes uitgelijnd is */
+    width: 100%;
+
+}
+
+.contact-header header{
+    color:#029400;
+}
+
+.contact-header p{
+    color: #333;
+}
+
+.contact-info {
+    padding-right: 10px;
+    flex: 0 0 50%; /* Zorgt ervoor dat dit 50% van de breedte inneemt */
+    text-align: right;
+}
+
+.contact-info img {
+    /*Grote voor de iconen links*/
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.contact-fillin {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #333;
+    box-shadow: #767373 0 0 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.contact-fillin label {
+    color:  #333;
+}
+
+.contact-fillin textarea, input {
+    margin: 5px;
+    padding: 1px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Volledige breedte van de container */
+    box-sizing: border-box; /* Inclusief padding in de breedte */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.contact-fillin button {
+    background-color: #53a6ff;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+    
+p {
+    font-size: 20px;
+}
+
+.top-button-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/* FOOTER CONTAINER */
+#footer {
+    background-color:  #0c140c;  /* Donkere achtergrondkleur */
+    color: #eeeeee;
+    padding: 30px 20px; /* Voldoende ruimte rondom de inhoud */
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-container p {
+    font-size: 14px;
+}
+
+footer nav ul li a {
+    color: #dcdcdc;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    background-color: #747474; /* Lichte blauw bij hover */
+    color: #eeeeee;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.top-button-footer {
+    font-size: 10px;
+    margin-top: 30px;
+}
